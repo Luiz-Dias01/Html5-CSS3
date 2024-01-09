@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'lato';
+    src: url(../../assets/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url(../../assets/font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'titillium';
+    src: url(../../assets/font/TitilliumWeb-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: #4D4D4D;
+}
+
+p {
+    font-family: 'titillium';
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#logoNav a {
+    color: #F1F1F1;
+    font-family: 'pacifico';
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#menuSumario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direcional button {
+    background-color: transparent;
+    color: white;
+    font-family: 'titillium';
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 18vw;
+}
+
+.direcional button:hover {
+    background-color: #139F73;
+    border-radius: 3px;
+}
+
+#enunciado {
+    background-image: url(../../assets/image/fundo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 66vh;
+}
+
+#txtEnunciado {
+    text-align: center;
+    align-items: center;
+    line-height: 45px;
+    margin: 15px;
+}
+
+#txtEnunciado h1 {
+    font-family: 'lato';
+    font-size: 2rem;
+}
+
+#txtEnunciado p {
+    font-family: 'titillium';
+}
+
+#btnVermais {
+    margin: 15px;
+}
+
+#btnVermais a {
+    background-color: #139F73;
+    color: white;
+    font-family: 'titillium';
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 8px 30px;
+}
+
+#btnVermais a:hover {
+    background-color: white;
+    color: #139F73;
+}
+
+#sobre {
+    background-color: #139F73;
+    color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+    padding: 40px;
+    height: 40vh;
+}
+
+#sobre h2 {
+    font-family: 'lato';
+    font-size: 1.5rem;
+}
+
+#sobre a {
+    background-color: white;
+    color: black;
+    font-family: 'tititllium';
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+#sobre a:hover {
+    background-color: #139F73;
+    color: white;
+    border: 1px solid white ;
+}
+
+#servicos {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#servicos h2 {
+    color: #4D4D4D;
+    font-family: 'lato';
+    font-size: 1.5rem;
+}
+
+#servicos > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.servicoVantagens {
+    margin: 10px;
+    width: 16vw;
+    min-width: 180px;
+    height: 25vh;
+}
+
+.servicoVantagens > div {
+    margin-bottom: 10px;
+}
+
+#portifolio {
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#portifolio h2 {
+    color: #4D4D4D;
+    font-family: 'lato';
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#conjuntoPortifolio > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.imgPortifolio {
+    margin-bottom: -5px;
+    width: 100%;
+    height: 100%;
+}
+
+.imgPortifolio img {
+    width: 100%;
+    height: 100%;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 0px;
+    margin-bottom: 5px;
+}
+
+#contato h2 {
+    color: #4D4D4D;
+    font-family: 'lato';
+    font-size: 1.5rem;
+}
+
+#contatoEnunciado {
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    margin: 10px;
+}
+
+#tipoContato {
+    display: flex
+}
+
+#tipoContato > div {
+    display: flex;
+    flex-direction: column;
+} 
+
+.formaContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 18vw;
+}
+
+.formaContato img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.formaContato a {
+    background-color: #139F73;
+    color: white;
+    font-family: 'tititllium';
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.formaContato a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #139F73;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    nav, #menuSumario {
+        flex-direction: column;
+    }
+
+    #logoNav a {
+        text-align: end;
+        align-items: end;
+        margin-bottom: 20px;
+    }
+
+    #enunciado {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    #txtEnunciado {
+        line-height: 20px;
+    }
+
+    #enunciado p {
+        margin-top: 20px;
+    }
+
+    #sobre {
+        padding: 5px 0px 20px 0px;
+        height: 100%;
+        line-height: 20px;
+    }
+
+    #sobre p {
+        margin: 20px 0px;
+    }
+
+    #sobre a {
+        margin: 20px;
+    }
+
+    #servicos > div {
+        flex-direction: column;
+    }
+
+    .servicoVantagens {
+        width: 100%;
+        height: 100%;
+        margin: 20px;
+    }
+
+    #conjuntoPortifolio> div {
+        flex-direction: column;
+    }
+
+    .imgPortifolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    #contato {
+        padding-top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #tipoContato {
+        flex-direction: column;
+    }
+
+    #tipoContato > div {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    footer {
+        height: 8vh;
+    }
+}
