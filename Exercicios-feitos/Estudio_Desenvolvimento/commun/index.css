@@ -1,0 +1,523 @@
+@font-face {
+    font-family: 'font1';
+    src: url(../assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../assets/fonts/TK3iWkUHHAIjg752GT8G.woff2);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url(../assets//fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2);
+}
+
+
+* {
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../assets/images/header.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#imgCirculo {
+    margin-top: 330px;
+    width: 35vw;
+    height: 65vh;
+    
+    
+}
+
+#imgCirculo img{
+    width: 100%;
+    height: 100%;
+}
+
+#txtHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 0px;
+    top: -360px;
+    z-index: 1;
+}
+
+#txtHeader h1 {
+    font-family: 'font2';
+    font-size: 4.2rem;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+}
+
+#txtHeader p {
+    font-family: 'font3';
+    font-size: 1.4rem;
+}
+
+#linhaLaranja {
+    background-color: #F15048;
+    margin-top: 30px;
+    width: 6.5vw;
+    height: 1.5vh;
+}
+
+#faixaMarketing {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#faixaMarketing > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 15px;
+    width: 50vw;
+}
+
+#faixaMarketing h2 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+
+#faixaMarketing p {
+    font-family: 'font3';
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    width: 750px;
+}
+
+#propostaMarketing {
+    background-image: url(../assets/images/proposta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#propostaMarketing > div {
+    text-align: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vw;
+}
+
+.numeracaoProposta {
+    font-family: 'font1';
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.numeracaoProposta span {
+    background-color: #F15048;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 10vh;
+}
+
+.tituloProposta {
+    font-family: 'font2';
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+}
+
+.valoresProposta {
+    font-family: 'font3';
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.valoresProposta p {
+    text-align: center;
+    width: 310px;
+}
+
+#acessibilidade {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    height: 45vh;
+}
+
+#acessibilidade > div {
+    position: relative;
+    left: 0px;
+    top: -135px;
+    z-index: 1;
+}
+
+#projetos {
+    background-image: url('../assets/images/cidade.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#background-dark {
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#txtProjeto {
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#txtProjeto h2 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+#txtProjeto p {
+    font-family: 'font3';
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: 10px;
+    width: 650px;
+}
+
+#faixaImagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.imagensFaixa {
+    width: 20vw;
+    height: 30vh;
+}
+
+#mac-dispositivo {
+    background-image: url('../assets/images/mac-dispositivo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#codigos {
+    background-image: url('../assets/images/codigos.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#design-projeto {
+    background-image: url('../assets/images/design-projeto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#trade-analise {
+    background-image: url('../assets/images/trade-analise.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#htmlcss {
+    background-image: url('../assets/images/htmlcss.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btnVermais {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#btnVermais button {
+    background-color: #F15048;
+    font-family: 'font3';
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+#btnVermais button:hover {
+    background-color: #f0392f;
+}
+
+#preferencia {
+    background-color: black;
+}
+
+#escolha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#escolha h2 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+#escolha p {
+    font-family: 'font3';
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: 10px;
+    width: 480px;
+}
+
+#idividualidade {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.txtConjunto {
+    display: flex;
+    width: 40vw;
+    height: 35vh;
+}
+
+.txtConjunto h3 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 7px;
+}
+
+.txtConjunto p {
+    font-family: 'font3';
+    font-size: 1rem;
+    margin-top: 7px;
+    width: 450px;
+}
+
+.iconIndividual {
+    width: 7vw;
+    height: 15vh;
+}
+
+.iconIndividual img {
+    text-align: start;
+    align-items: flex-start;
+    width: 90px;
+    height: 90px;
+}
+
+.txtIndividual {
+    padding-top: 22px;
+}
+
+#equipe {
+    height: 28vh;
+}
+
+#equipe p {
+    width: 31vw;
+}
+
+#trabalho {
+    height: 28vh;
+}
+
+#trabalho p {
+    width: 31vw;
+}
+
+#trabalhoEquipe {
+    background-image: url('../assets/images/team.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 75vh;
+}
+
+.txtParticao {
+
+}
+
+.txtParticao h2 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 50px;
+}
+
+#txtSucesso h3 {
+    color: #F15048;
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 45px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.txtParticao p {
+    font-family: 'font3';
+    font-size: 1rem;
+    line-height: 25px;
+    width: 22.2vw;
+    height: 30vh;
+
+}
+
+#backimage {
+    background-image: url('../assets/images/mac-dispositivo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    width: 25vw;
+    height: 50vh;
+
+    position: relative;
+    top: -20px;
+    left: 0px;
+}
+
+#comentarios {
+    background-color: black;
+    padding: 20px;
+}
+
+.splide {
+    padding: 30px;
+    height: 65vh;
+}
+
+.splide__slide {
+    height: 100%;
+}
+
+.tituloSlide {
+    text-align: center;
+}
+
+.tituloSlide  h2 {
+    font-family: 'font2';
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+.slideConteudo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80vw;
+}
+
+.imgDimensao {
+    margin-right: 15px;
+    height: 32vh;
+}
+
+#imgterno {
+    height: 40vh;
+}
+
+.circleImg {
+    width: 12vw;
+    height: 23vh;
+}
+
+.circleImg img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.txtSlide {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.txtSlide p {
+    font-family: 'font3';
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 650px;
+}
+
+.txtSlide  span {
+    font-family: 'font2';
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+footer a {
+    color: #F15048;
+}
